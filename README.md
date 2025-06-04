@@ -3,13 +3,13 @@
 </p>
 
 <style>
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   img[alt="Sourdough Logo"] {
     filter: brightness(0) saturate(100%);
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   img[alt="Sourdough Logo"] {
     filter: brightness(0) invert(1);
   }
