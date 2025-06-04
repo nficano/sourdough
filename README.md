@@ -1,8 +1,10 @@
+<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://assets.nickficano.com/sourdough-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://assets.nickficano.com/sourdough-light.svg">
   <img alt="Sourdough Logo" src="https://assets.nickficano.com/sourdough-light.svg">
 </picture>
+</p>
 
 # 🍞 Sourdough
 
