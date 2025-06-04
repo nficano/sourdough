@@ -1,11 +1,20 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://assets.nickficano.com/sourdough.svg" style="filter: brightness(0) invert(1);">
-    <source media="(prefers-color-scheme: light)" srcset="https://assets.nickficano.com/sourdough.svg" style="filter: brightness(0);">
-    <img src="https://assets.nickficano.com/sourdough.svg" style="filter: brightness(0) invert(1);">
-  </picture>
+  <img src="https://assets.nickficano.com/sourdough.svg" alt="Sourdough Logo">
 </p>
 
+<style>
+@media (prefers-color-scheme: light) {
+  img[alt="Sourdough Logo"] {
+    filter: brightness(0) saturate(100%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  img[alt="Sourdough Logo"] {
+    filter: brightness(0) invert(1);
+  }
+}
+</style>
 
 # 🍞 Sourdough
 
